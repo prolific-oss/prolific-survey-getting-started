@@ -6,7 +6,7 @@
 
 A minimal, end-to-end example showing how to programmatically create, publish, and analyze a survey on Prolific using the API.
 
-This repository is designed as a getting-started demo for researchers, engineers, and AI/ML practitioners who want to collect high-quality human responses using Prolific.
+This repository is designed as a getting-started demo for researchers, engineers, and AI/ML practitioners who want to quickly collect high-quality human responses using Prolific, often **within minutes of launching a study**.
 
 ## Files
 
