@@ -29,11 +29,6 @@ This repository is designed as a getting-started demo for researchers, engineers
    conda activate rise_slides
    ```
 
-   Otherwise, you can install the required packages with pip:
-   ```bash
-   pip install pandas matplotlib pyyaml requests python-dotenv
-   ```
-
 ## Usage
 
 1. Edit `config.yaml` to customize your study
