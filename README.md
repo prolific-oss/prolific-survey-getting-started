@@ -37,7 +37,7 @@ This repository is designed as a getting-started demo for researchers, engineers
 ## Usage
 
 1. Edit [`config.yaml`](config.yaml) to customize your study
-2. Run the [notebook](prolific-survey-getting-started.ipynb) to create and publish your survey
+2. Run the [Jupyter notebook](prolific-survey-getting-started.ipynb) to create and publish your survey
 3. View results with demographic breakdowns 
 
 ## Features
