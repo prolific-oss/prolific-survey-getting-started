@@ -66,5 +66,5 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 > This project is provided **as-is** for **educational and research purposes only**.
 > - 🔬 **Beta Status**: This is experimental code and may contain bugs or incomplete features
 > - 📚 **Not Maintained**: No active development or support is provided
-> - 🎓 **Educational Use**: Intended as a learning resource for RLHF workflows
+> - 🎓 **Educational Use**: Intended as a learning resource
 > - ⚖️ **Use at Your Own Risk**: Test thoroughly before using in production environments
