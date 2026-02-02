@@ -23,15 +23,13 @@ This repository is designed as a getting-started demo for researchers, engineers
    cp .env.example .env
    ```
 
-2. Install dependencies using conda (recommended) or pip:
-
-   **Option A: Using conda**
+2. Install dependencies. Optionally, we've provided an `environment.yaml` file if you want to use conda to set up your environment:
    ```bash
    conda env create -f environment.yaml
-   conda activate prolific-demo
+   conda activate rise_slides
    ```
 
-   **Option B: Using pip**
+   Otherwise, you can install the required packages with pip:
    ```bash
    pip install pandas matplotlib pyyaml requests python-dotenv
    ```
