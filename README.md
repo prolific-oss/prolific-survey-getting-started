@@ -10,30 +10,40 @@ This repository is designed as a getting-started demo for researchers, engineers
 
 ## Files
 
-- **`config.yaml`** - Survey configuration (questions, rewards, participant settings)
-- **`prolific_helpers.py`** - Helper functions for Prolific API interactions
-- **`prolific-survey-getting-started.ipynb`** - Main notebook workflow
-- **`environment.yaml`** - Conda environment specification
-- **`.env.example`** - Template for environment variables
+- **[`config.yaml`](config.yaml)** - Survey configuration (questions, rewards, participant settings)
+- **[`prolific_helpers.py`](prolific_helpers.py)** - Helper functions for Prolific API interactions
+- **[`prolific-survey-getting-started.ipynb`](prolific-survey-getting-started.ipynb)** - Main notebook workflow
+- **[`environment.yaml`](environment.yaml)** - Conda environment specification
+- **[`.env.example`](.env.example)** - Template for environment variables
 
 ## Setup
 
-1. Copy `.env.example` to `.env` and add your credentials:
+1. Copy [`.env.example`](.env.example) to `.env` and add your Prolific API credentials:
    ```bash
    cp .env.example .env
    ```
 
-2. Install dependencies. Optionally, we've provided an `environment.yaml` file if you want to use conda to set up your environment:
+   Required environment variables:
+   - `PROLIFIC_API_TOKEN` - Your Prolific API authentication token
+   - `PROLIFIC_WORKSPACE_ID` - Your workspace ID
+   - `PROLIFIC_PROJECT_ID` - Your project ID
+
+2. Install the required dependencies. For conda users, an [`environment.yaml`](environment.yaml) file is provided for convenience:
    ```bash
    conda env create -f environment.yaml
    conda activate rise_slides
    ```
 
+   Alternatively, install via pip:
+   ```bash
+   pip install pandas matplotlib pyyaml requests python-dotenv
+   ```
+
 ## Usage
 
-1. Edit `config.yaml` to customize your study
-2. Run the notebook to create and publish your survey
-3. View results with demographic breakdowns (generation, gender)
+1. Edit [`config.yaml`](config.yaml) to customize your study
+2. Run the [notebook](prolific-survey-getting-started.ipynb) to create and publish your survey
+3. View results with demographic breakdowns 
 
 ## Features
 
@@ -47,7 +57,8 @@ This repository is designed as a getting-started demo for researchers, engineers
 
 Prolific connects AI researchers and developers with high-quality human data. Source large samples of domain experts, experienced AI trainers, and diverse demographics in hours, not weeks.
 
-**Self-service** or **full-service** — your choice.
+- Documentation: https://docs.prolific.com/
+- Get started today: https://app.prolific.com/
 
 ---
 
