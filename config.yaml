@@ -1,0 +1,34 @@
+# Prolific Study Configuration
+
+# Study Parameters
+study:
+  name: "One mutiple choice question about AI"
+  description: "In this survey, you will be presented with a single mutiple choice question about how you feel about AI"
+  privacy_notice: "Your data will be used for research purposes only and will be kept confidential."
+  labels: 
+      - survey
+
+# Survey Questions
+survey:
+  title: "One mutiple choice question about AI"
+  question_text: "Would you trust an AI system to help you make a decision?"
+  answers:
+    - "No"
+    - "Maybe"
+    - "Yes"
+
+# Participant Settings
+participants:
+  reward: 1  # in dollars
+  total_participants: 20
+  estimated_time: 1  # in minutes
+  max_time: 2  # in minutes
+
+# Device Compatibility
+device_compatibility:
+  - desktop
+  - tablet
+  - mobile
+
+# Timezone for results display
+timezone: "America/Los_Angeles"
